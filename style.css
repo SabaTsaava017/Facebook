@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color:gainsboro;
+}
+.Container{
+    margin: 0 auto;
+}
+h1{
+    color:#1877f2;
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+    color: #333;
+}
+p{
+    margin-top: 10px;
+    color: #606770;
+}
+.title{
+    margin-top: 100px;
+    margin-right: 800px;
+}
+.Login_div{
+    margin-left: 500px;
+    width: 400px;
+    height: 370px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.Email_input{
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-color: white;
+}
+.password_input{
+    display: block;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-color: white;
+}
+.button_login{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+    background-color: #1877f2;
+    font-size: 20px;
+    border-color: #1877f2;
+
+}
+.forgot_password{
+    color:#1877f2;
+    font-size: 18px;
+    padding-left: 135px;
+    padding-top: 5px;
+}
+.hr{
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 25px;
+}
+.Create_account{
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
