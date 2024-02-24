@@ -5,35 +5,45 @@
 }
 body{
     display: flex;
-    background-color:gainsboro;
+    background-color:#e9ebee;
 }
 .Container{
     margin: 0 auto;
+    display: flex;
 }
-h1{
-    color:#1877f2;
-    font-size: 40px;
+.FB_icon{
+    width: 200px;
 }
 h2{
     font-size: 35px;
     color: #333;
+    padding-left: 20px;
 }
 p{
     margin-top: 10px;
     color: #606770;
+    padding-left: 20px;
 }
 .title{
     margin-top: 100px;
-    margin-right: 800px;
+    margin-right: 300px;
 }
 .Login_div{
-    margin-left: 500px;
     width: 400px;
     height: 370px;
     border-color: white;
     border-radius: 10px;
     background-color: white;
+    margin-top: 140px;
 
+
+}
+.box_and_info{
+    display: block;
+}
+.create_page{
+    padding-left: 50px;
+    color: black;
 }
 .Email_input{
     margin-left: 25px;
@@ -89,4 +99,25 @@ p{
     font-size: 15px;
     margin-left: 100px;
     margin-top: 25px;
+}
+.account_card{
+    width: 160px;
+    height: 210px;
+    background-color:white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.account_img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 160px;
+}
+.account_Name{
+    padding-left: 60px;
+    font-size: 20px;
+    padding-top: 6px;
+}
+.account_cards{
+    display: flex;
+    gap: 20px;
 }
